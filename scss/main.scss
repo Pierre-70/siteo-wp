@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+@import "helpers/variables";
+
+@import "vendors/bootstrap";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/content";
+@import "layout/responsive";
+
+@import "components/components"; // buttons, carousel, extension map, forms...
+
+@import "pages/home";
+
+@import "vendors-extensions/bootstrap";
+@import "vendors-extensions/wordpress";

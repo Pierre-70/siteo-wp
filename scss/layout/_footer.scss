@@ -1,0 +1,33 @@
+//footer
+.footer {
+	background: $primary-color;
+	color: #ffffff;
+	padding: 2em;
+}
+.footer .list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer .list div,
+.footer .list address {
+	margin-left: .5em;
+}
+
+.footer .svg {
+	font-size: 2em;
+	padding: .2em;
+}
+.footer a {color: $primary-color-light;}
+
+
+.footer p {margin: 1rem 0;}
+#menu-footer {list-style: none; margin: 1em 0; padding: 0;}
+#menu-footer li {
+	display: inline-block;
+	padding-right: .5em;
+}
+#menu-footer li + li::before {
+	content: "-";
+	padding: 0 .5em 0 0;
+}

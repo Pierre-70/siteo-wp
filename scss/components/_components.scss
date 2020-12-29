@@ -1,0 +1,53 @@
+/* buttons */
+.btn-primary:hover {
+	background: $primary-color-light;
+	color: #ffffff;
+}
+.btn-primary {
+	background: $primary-color;
+	border: none;
+	border-radius: 0;
+	color: #ffffff;
+	margin: 2em 0;
+	padding: 1em;
+	text-transform: uppercase;
+	transition: $transition;
+}
+.btn-smaller {
+	padding: .5em;
+	font-size: 1rem;
+}
+
+/* google map */
+.acf-map {
+	height: 300px;
+	margin-bottom: 2em;
+	min-width: 100%;
+}
+
+/* carousel */
+
+
+/* -- Pagination -- */
+.pagination .page-numbers {
+  background-color: transparent;
+	border: 1px solid $filet;
+	border-width: 0 1px;
+  color: inherit;
+  display: block;
+	font-size: .85rem;
+  line-height: 1.25;
+  margin-left: -1px;
+	position: relative;
+  padding: .5rem .75rem;
+}
+
+.pagination .page-numbers.current {background: #fff;}
+.pagination .page-numbers.next,
+.pagination .page-numbers.prev {
+	background: #fff;
+	border-width: 1px;
+	border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+}

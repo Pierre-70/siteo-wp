@@ -1,0 +1,46 @@
+/* tabs */
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-link.active {
+	background: $primary-color;
+}
+.nav-pills .nav-link:hover {
+	background: $primary-color-light;
+}
+.nav-pills .nav-link {
+	border: solid 1px grey;
+	color: $primary-color;
+	margin: 0 .5em 0 0;
+	padding: 1em;
+}
+.tab-content > div {
+	border: solid 1px $primary-color;
+	border-radius: 0 0 .5em .5em;
+	border-width: 0 2px 2px 1px;
+	margin-bottom: 2em;;
+	padding: 1em;
+}
+
+/* Pagination */
+.nav-pagination {
+	display: flex;
+	justify-content: center;
+}
+.nav-pagination .page-numbers {
+	display:inline-block;
+	margin: 2px 2px 2px 0;
+	padding:6px 9px 5px 9px;
+	text-decoration:none;
+	width:auto;
+	color: #000000; /* Pagination text color */
+	background: $grey; /* Pagination non-active background color */
+	transition: background .15s ease-in-out;
+}
+.nav-pagination .page-numbers:hover{
+	color:#fff;
+	background: $primary-color; /* Pagination background on hover */
+}
+.nav-pagination .current{
+	padding:6px 9px 5px 9px;
+	background: #6AAC70; /* Current page background */
+	color:#fff;
+}

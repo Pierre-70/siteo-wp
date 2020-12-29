@@ -1,0 +1,114 @@
+/* general */
+.scroll-top {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	bottom: 2em;
+	color: #ffffff;
+	opacity: 0;
+	padding: .5em;
+	position: fixed;
+	right: 2em;
+	transition: all .3s ease;
+}
+.visible-fixed {display: none;}
+
+
+body {background: $primary-color;}
+
+main {background: $secondary-color-light; padding-bottom: 2em;}
+
+.page-title {
+	background: #ffffff;
+	margin: 0 0 1em;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.content {
+	background: #ffffff;
+	margin: 0;
+}
+.content .nav-archives a {
+	background: $grey;
+	color: #000000;
+	margin: 0 .5em;
+	padding: .5em;
+}
+.content h1 {
+	color: #000000;
+	font-weight: normal;
+	margin: 0;
+	padding: .5em;
+	text-align: center;
+}
+.content h3 {
+	font-size: 1.3em;
+	margin-bottom: .5em;
+	padding-top: .2em;
+}
+
+.content a:hover {
+	background: $primary-color;
+}
+.content a {
+	color: $link-color;
+	padding: .2em;
+}
+
+
+/* archives */
+.box-article {
+	padding: 1em;
+	position: relative;
+}
+.box-article_title {
+	font-size: 1.5rem;
+	margin: 0;
+}
+.box-article:hover {
+	background: $greylight;
+	text-decoration: none;
+}
+.box-article > a {
+	bottom: 0;
+	color: $grey;
+	display: block;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.box-article > a:hover {
+	background: transparent;
+}
+.post-categories {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.post-categories li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.post-categories li + li:before {
+	content: " - ";
+}
+.post-categories a[rel$=tag] {
+	color: $primary-color-light;
+	display: inline-block;
+	font-size: .8rem;
+	font-weight: bold;
+	margin: .5em 0;
+	position: relative;
+	text-transform: uppercase;
+}
+.post-categories a[rel$=tag]:hover {
+	color: $grey;
+}
+article .post-categories {text-align: center;}
+.article-intro {
+    font-style: italic;
+    font-size: 1.4rem;
+    margin: 1em 0;
+}
