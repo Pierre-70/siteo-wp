@@ -30,6 +30,8 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+        
+        <!-- PIerre -->
 
 		<header class="header" role="banner">
 
