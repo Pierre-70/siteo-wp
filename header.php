@@ -31,7 +31,7 @@
 
 	<body <?php body_class(); ?>>
         
-        <!-- PIerre -->
+        <!-- PIerre - 2 -->
 
 		<header class="header" role="banner">
 
